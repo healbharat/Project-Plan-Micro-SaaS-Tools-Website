@@ -1,7 +1,7 @@
 # 📌 Project Plan – Micro SaaS Tools Website  
 
 ## 🎯 Objective
-Ek **multipurpose SaaS platform** jithe users 4 tools use karu shaktat:  
+Ek **multipurpose SaaS platform**
 - 🧾 Invoice Generator  
 - 📄 Resume Builder  
 - 🎓 Certificate Creator  
@@ -108,8 +108,51 @@ Additional Features:
 
 ## 🏗️ How to Run
 
-### Frontend
-```bash
-cd frontend
-npm install
-npm run dev
+### Deep Understandings 
+
+## 🏗️ Project Features
+
+### 1. User Side (Frontend)
+- Homepage with all available tools.
+- Individual pages for each tool.
+- Clean UI using HTML/CSS/Bootstrap (React optional if time permits).
+- Forms for input (e.g., Invoice → Item name, Price, Tax %).
+- Generate downloadable PDF/PNG outputs.
+- Authentication system (Signup/Login).
+- Free vs Premium templates (1-2 free, others locked).
+
+### 2. Admin Side
+- Admin login.
+- Dashboard showing:
+  - Number of users.
+  - Most used tools.
+  - Download counts.
+- Manage templates (Add/Remove).
+- View subscription users.
+
+### 3. Backend (Python)
+- Framework: Flask (or Django).
+- User authentication (Session/JWT).
+- APIs for:
+  - Invoice generator (PDF).
+  - Resume builder (PDF/Docx).
+  - Certificate creator (PNG/PDF).
+  - QR code generator.
+- Database: SQLite/MySQL.
+- Admin panel APIs for user data and usage stats.
+
+### 4. Extra Features (Optional)
+- Subscription/payment integration (Stripe/Razorpay demo).
+- Email verification (SMTP).
+- Save generated files history for logged-in users.
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend**: HTML, CSS, Bootstrap (React optional)
+- **Backend**: Python (Flask/Django)
+- **Database**: SQLite/MySQL
+- **Authentication**: Session/JWT
+- **PDF/PNG Generation**: ReportLab, Pillow, qrcode
+
+
