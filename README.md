@@ -97,8 +97,13 @@ Additional Features:
 - **File Export** → jsPDF, Puppeteer, ReportLab  
 - **Authentication** → Google OAuth + JWT  
 - **Payments** → Razorpay (India) / Stripe (Global)  
-- **Hosting** → Vercel (Frontend), Render/Heroku (Backend), MongoDB Atlas (Database)  
+- **Hosting** → Vercel (Frontend), Render/Heroku (Backend), MongoDB Atlas (Database)
 
+- **Frontend**: HTML, CSS, JavaScript (Bootstrap/Tailwind optional)
+- **Backend:** Python (Flask/Django/FastAPI → choose Flask for simplicity)
+- **Database:** SQLite/MySQL (start with SQLite)
+- **Authentication:** Login/Signup with email + password
+- **Deployment**: GitHub + (optional) free hosting on Render/Heroku/Vercel
 ---
 
 ## 🏗️ How to Run
