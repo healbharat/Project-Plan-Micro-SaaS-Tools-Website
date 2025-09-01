@@ -106,7 +106,7 @@ Additional Features:
 - **Deployment**: GitHub + (optional) free hosting on Render/Heroku/Vercel
 ---
 
-## 🏗️ How to Run
+## 🏗️ Also Follow This
 
 ### Deep Understandings 
 
